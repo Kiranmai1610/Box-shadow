@@ -1,0 +1,42 @@
+body{
+    margin:0;
+}
+.container{
+    box-sizing: border-box;
+}
+
+img{
+    width: 500px;
+    height: 320px;
+    /* border-radius: 20px; */
+    /* padding-right: 30px; */
+    border-top-left-radius: 50px;
+    margin-right: 27px;
+    padding: 10px;
+    box-shadow:10px 10px 10px black;
+}
+section{
+    display: inline-block;
+    padding-top: 20px;
+    /* border-top-left-radius: 20px 20px; */
+}
+header{
+    text-align: center;
+    font-size:150px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-weight: 900;
+    background-image: url(./senaryy.jpg);
+    animation: move 1s infinite;
+    background-clip: text;
+    color: transparent;
+}
+@keyframes move{
+    100%{
+        background-position-x: 500px;
+    }
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
